@@ -1,16 +1,15 @@
+# ⚡ Hello World, I'm morisxbt!
+
 const githubProfile = {
   username: "morisxbt",
-  level: "Beginner",
-  isNewbie: true,
-  currentActivity: "Learning how to commit and push code",
-  message: "Hello everyone! Just created my account. Excited to join the community!",
-  systemCheck: function() {
-    if (this.isNewbie) {
-      console.log(`⚡️ [SYSTEM]: Hello World from ${this.username}!`);
-      console.log(`📝 [STATUS]: ${this.message}`);
-      console.log("🛠️ [TODO]: Keep learning, coding, and building things.");
-    }
-  }
+  level: "Beginner / Newbie",
+  status: "Learning & Growing 🚀",
+  focus: ["Git Basics", "Web Development", "Exploring GitHub"],
+  motto: "Code code code until it works!"
 };
 
-githubProfile.systemCheck();
+console.log(`System Status: ${githubProfile.status}`);
+### ✨ About Me
+- 🟢 Currently exploring the massive world of open-source.
+- 📚 Just created this account to start my coding journey.
+- 👋 Nice to meet you all! Please feel free to guide me.
